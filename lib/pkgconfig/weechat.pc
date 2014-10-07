@@ -1,0 +1,9 @@
+prefix=/root/weechat
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: weechat
+Description: Weechat plugins headers
+Version: 1.0
+Cflags: -I${includedir}/weechat
